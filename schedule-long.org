@@ -1,0 +1,96 @@
+#+OPTIONS: toc:nil H:2 num:0 \n:t
+
+#+BEGIN_EXPORT html
+---
+layout: page
+title: Schedule
+permalink: /schedule/
+---
+#+END_EXPORT
+
+*  
+*** week 1: single layer perceptrons
+**** Feb. 6: overview and the LT neuron
+***** boolean functions
+***** preferred stimulus
+**** Feb. 8: delta rule
+***** cost function
+***** multiclass
+**** precept 1: review of gradient optimization
+**** pset 1: LT neuron and delta rule
+*** week 2: multilayer perceptrons
+**** Feb. 13: feedforward nets and the MLP
+***** directed acyclic graph
+***** boolean functions
+***** backprop algorithm
+**** Feb. 15: backpropagation
+***** backprop derivation
+**** precept 2: review of eigenvalues and eigenvectors
+**** pset 2: MLP and backprop
+*** week 3: gradient learning
+**** Feb. 20: stochastic gradient descent
+***** theory
+***** practice
+****** initialization
+****** preprocessing
+****** hyperparameters
+**** Feb. 22: generalization and regularization
+***** theory
+***** practice
+**** precept 3: review of convolution and correlation
+**** pset 3: the black art of backprop
+*** week 4: ConvNet theory
+**** Feb. 27: convolution and pooling
+***** selectivity and invariance
+***** backprop algorithm
+**** Mar. 1: ConvNet backprop
+***** backprop with weight sharing
+***** backprop derivation
+**** precept 4: 
+**** pset 4: LeNet and MNIST
+*** week 5: ConvNet applications
+**** Mar. 6: visual object recognition
+***** ImageNet
+**** Mar. 8: image to image transforms
+***** strided and dilated convolution
+***** deconvolution
+**** precept 5: midterm review
+**** no pset this week
+*** week 6: biological inspiration and midterm
+**** Mar. 13: biological vision
+***** Hubel-Wiesel model
+***** Neocognitron
+**** Mar. 15 (midterm exam)
+**** precept 6: midterm review
+**** no pset this week
+*** spring break!!!
+*** week 7: high performance computation
+**** Mar. 27: deep learning frameworks and cloud computing
+**** Mar. 29: parallel and distributed algorithms
+***** GPU and CPU
+***** asynchronous SGD
+**** pset 5: ConvNet scaleup
+*** week 8: unsupervised learning
+**** Apr. 3: PCA and clustering
+***** linear Hebbian neuron
+**** Apr. 5: autoencoders
+**** pset 6: PCA and autoencoders
+*** week 9: computing with recurrent nets
+**** Apr. 10: symmetric networks
+***** relation to optimization
+***** contrastive Hebbian learning
+**** Apr. 12: backprop through time
+**** pset 7: recurrent neural nets
+*** week 10: language modeling
+**** Apr. 17: multilayer perceptrons
+***** bigrams and trigrams
+***** PCA and MLP
+**** Apr. 19: recurrent nets
+**** pset 8: language modeling
+*** week 11: reinforcement learning
+**** Apr. 24: policy gradient
+**** Apr. 26: value function
+**** pset 9: reinforcement learning
+*** week 12: more unsupervised learning
+**** May 1: ICA and NMF
+**** May 3: Foldiak model
