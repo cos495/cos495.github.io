@@ -30,5 +30,9 @@ Alex Beatson, Qipeng Liu, and Ari Seff will lead the weekly precepts.
 - Th 7:30-8:20 pm  [Friend Center][friend-center]   109
 - W	7:30-8:20 pm [Friend Center][friend-center]   108
 
+### Other links
+- [Princeton registrar](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=002084&term=1174)
+- [COS Dept](http://www.cs.princeton.edu/courses/archive/spring17/cos495/)
+
 [robertson-hall]: https://goo.gl/maps/vNgBtF8Qpn62
 [friend-center]: https://goo.gl/maps/FbGwEnmNAnC2
