@@ -3,15 +3,17 @@ layout: post
 title: "Problem Set 1"
 ---
 
+### Due Monday, Feb. 13 on Blackboard. Please follow the general [guidelines](https://cos495.github.io/general/2017/02/06/homework-guidelines.html) regarding homework assignments.
+
 
 1. Let $$x_{1},…,x_{N}$$ be $$N$$ boolean variables, taking on the values 0 or 1. 
    - Consider the conjunction $$\bar{x}_{1}\wedge\bar{x}_{2}\cdots\wedge\bar{x}_{n}\wedge x_{n+1}\wedge\cdots\wedge x_{N}$$ in which the first $$n$$ variables are negated. Express this function as an LT neuron $$H\left(\sum_{i}w_{i}x_{i}-\theta\right)$$ with weights $$w_{i}$$ and threshold $$\theta$$, where $$H$$ is the Heaviside step function. Note that conjunction, or AND, is defined by $$x_{1}\wedge\cdots\wedge x_{N}=1\text{ if and only if }x_{i}=1\text{ for all }i$$
 
    - Do the same for the disjunction $$\bar{x}_{1}\vee\bar{x}_{2}\cdots\vee\bar{x}_{n}\vee x_{n+1}\vee\cdots\vee x_{N}$$. Note that disjunction, or OR, is defined by $$x_{1}\vee\cdots\vee x_{N}=1\text{ if and only if }x_{i}=1\text{ for some }i$$
 
-2. Introduction to the MNIST dataset. This dataset was created at AT&T Bell Labs in the 1990s by modifying a larger dataset from NIST. It consists of images of handwritten digits, and was heavily used in machine learning research in the 1990s and 2000s.  [Documentation](http://yann.lecun.com/exdb/mnist/) about the dataset can be found at Yann LeCun's personal website.
+2. The MNIST dataset was created at AT&T Bell Labs in the 1990s by selecting from and modifying a larger dataset from NIST. It consists of images of handwritten digits, and was heavily used in machine learning research in the 1990s and 2000s.  [Documentation](http://yann.lecun.com/exdb/mnist/) about the dataset can be found at Yann LeCun's personal website.
 <br><br>
-If you are using your own computer, download the sample code using the command
+If you are using your own computer, download the sample code and start the Jupyter notebook using the commands
 ```
 $ git clone https://github.com/cos495/code.git
 $ cd code
@@ -22,19 +24,36 @@ julia> notebook()
 ```
 **IJulia** is the Julia flavor of the Jupyter notebook. If it doesn't install properly, you may have to consult the IJulia [documentation](https://github.com/JuliaLang/IJulia.jl).
 <br><br>
-If you are using JuliaBox, point your browser to juliabox.com.  Select "Sync" in the toolbar, type `https://github.com/cos495/code.git` into the box under "Git Clone URL", and press the "+" button on the right. Now select "Jupyter" in the toolbar.
+If you are using JuliaBox, point your browser to juliabox.com.  Select "Sync" in the toolbar, type `https://github.com/cos495/code.git` into the box under "Git Clone URL", and press the "+" button on the right. Now select "Jupyter" in the toolbar.  
 <br><br>
-Either of these methods should open the Jupyter Notebook Dashboard in your browser. Select the "Files" tab if necessary, select the `code` directory, and then select `MNIST-Intro.ipynb`. The notebook should open in your browser.
-   - Executing the code in the notebook cells will enable you to visualize the MNIST images.
+Either of these methods should open the Jupyter Notebook Dashboard in your browser.   The `code` folder should appear in the list of files. (If it doesn't, select the "Files" tab and/or refresh the page.) Select it, and then select `MNIST-Intro.ipynb`. The notebook should open in your browser.
+   - Execute the code in the notebook cells to visualize the MNIST images and their statistical properties. (No work to submit here.)
    
-   - Write code to compute the pixelwise standard deviation of the images in each digit class.
+   - Write code to compute the pixelwise standard deviation of the images in each digit class.  (You can start from the provided code for the pixelwise mean of the images in each digit class. Use `std` to compute standard deviation.)
    
-   - For each digit class, visualize the standard deviation as an image.
+   - For each digit class, visualize the standard deviation as an image. Use the provided `montage` function. 
 
 
 3. Classifying MNIST images with an LT neuron.  Return to the Notebook Dashboard and select `DeltaRule.ipynb`.
-   - The sample code trains an LT neuron to be activated by images of “two” while remaining inactive for images of other digits. Run the code. What is the final average training error of the LT neuron? 
+   - The sample code trains an LT neuron to be activated by images of “two” while remaining inactive for images of other digits. When you run the code, you should see time-varying images of the weight vector, the input vector, and a learning curve. What is the final average training error of the LT neuron? 
 
    - Write code to run the trained LT neuron on the test set of images. What is the average error on the test set? Submit your code.
 
    - What would be the error rate of the trivial recognition algorithm that always returns an output of 0?
+
+4. Now consider training 10 LT neurons to detect the 10 digit classes. More generally, assume there are $$k$$ weight vectors, which are the rows of a $$k\times n$$ matrix $$W$$. The desired output $$\vec{y}$$ and bias $$\vec{b}$$ are $$k\times 1$$ vectors, and the input $$\vec{x}$$ is an $$n\times 1$$ vector. The goal of supervised learning is to find $$W$$ and $$\vec{b}$$ such that this approximation holds: $$\vec{y}\approx H\left(W\vec{x}+\vec{b}\right)$$. Here the Heaviside step function $$H$$ has been extended to take a vector argument, simply by applying it to each component of the vector. 
+
+   - Write the delta rule in matrix-vector format. Use $$\eta>0$$ as the learning rate parameter.
+
+   - Modify the code in the `DeltaRule` notebook to train 10 LT neurons to recognize all 10 digit classes. Use the "one-hot" representation for the output: the $$i$$th component $$y_{i}=1$$ if the input $$\vec{x}$$ belongs to the $$i$$th digit class, while all other components are zero. We'll use the convention that the class of “zero”s corresponds to $$i=10$$. (Note: You could simply add an outer loop around the `DeltaRule` code for the different digit classes. Don't do this, as it's more revealing to code the updates in the matrix form that you have derived.) 
+
+   - Your code should monitor the classification error on the training set.  What error rate does it achieve?
+   
+   - Your code should visualize the ten learned weight vectors displayed as images. 
+
+   - If all the LT neurons were performing perfectly, only a single one would be active for each image. In reality, the number of active neurons is often greater or less than one. If we want the neurons to collectively choose a single digit class, we can keep their weight vectors and biases but replace the Heaviside step function with: 
+<br><br>
+$$\argmax_{a}\left\{ \vec{w}_{a}\cdot\vec{x}+b_{a}\right\}$$
+<br><br>
+where the maximum with respect to a runs over the 10 neurons. Write code to evaluate the error of this “winner-take-all” classifier on the training and test sets. What are the error values?
+
