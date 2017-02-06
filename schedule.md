@@ -263,5 +263,12 @@ permalink: /schedule/
 <td class="org-left">unsupervised learning in the brain</td>
 <td class="org-left">&#xa0;</td>
 </tr>
+
+<tr>
+<td class="org-left">Final</td>
+<td class="org-left">TBA</td>
+<td class="org-left">final exam</td>
+<td class="org-left">&#xa0;</td>
+</tr>
 </tbody>
 </table>
