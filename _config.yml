@@ -23,6 +23,8 @@ github_username:  cos495
 
 # Build settings
 markdown: kramdown
+kramdown:
+  hard_wrap:      true
 theme: minima
 gems:
   - jekyll-feed
