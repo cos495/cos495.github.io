@@ -22,12 +22,7 @@ twitter_username: SebastianSeung
 github_username:  cos495
 
 # Build settings
-highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
 theme: minima
 gems:
   - jekyll-feed
