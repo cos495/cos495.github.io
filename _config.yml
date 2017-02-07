@@ -23,8 +23,6 @@ github_username:  cos495
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
 theme: minima
 gems:
   - jekyll-feed
