@@ -11,6 +11,6 @@ There are many online resources that can be helpful for learning the content of 
 - [Unsupervised Feature Learning and Deep Learning Tutorial](http://deeplearning.stanford.edu/tutorial/) from Stanford
 - [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) lecture notes by Andrej Karpathy
 
-Extra readings on serious first steps into academic research in neural network and deep learning:
+Extra readings on the history of neural networks and their recent revival:
 - [Nature article](http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html) by Yann LeCun,	Yoshua Bengio, and Geoffrey Hinton
 - [Technical report](https://arxiv.org/pdf/1404.7828v4.pdf) by Jurgen Schmidhuber
