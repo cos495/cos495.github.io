@@ -9,3 +9,5 @@ Good news! Donghun Lee will teach a fourth precept. If you have preferences rega
 
 We are now planning to raise the enrollment cap to 100. Unfortunately no one has been able to register yet because the relevant COS Dept. administrator was out of the office today.  I think she'll be back tomorrow or the day after, and will request the appropriate changes from the registrar.
 
+I'm aware that there aren't enough seats in the lecture hall. We may have to change the venue, but let's first wait for enrollment to stabilize.
+
