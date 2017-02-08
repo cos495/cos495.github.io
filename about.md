@@ -29,10 +29,10 @@ Prof. Sebastian Seung will lecture twice a week.
 ### Precepts
 Alex Beatson, Donghun Lee, Qipeng Liu, and Ari Seff will lead the weekly precepts.
 
-- W	7:30-8:20 pm  [Robertson Hall][robertson-hall]  016
-- Th 7:30-8:20 pm  [Friend Center][friend-center]   109
-- W	7:30-8:20 pm [Friend Center][friend-center]   108
-- fourth precept TBA
+- W	7:30-8:20 pm [Robertson Hall][robertson-hall]	016  	by Alex Beatson
+- Th 	7:30-8:20 pm [Friend Center][friend-center]   	109  	by Qipeng Liu
+- W	7:30-8:20 pm [Friend Center][friend-center]   	108  	by Ari Seff
+- W	7:30-8:20 pm [Friend Center][friend-center]	112	by Donghun Lee
 
 ### Online discussions
 You can ask and answer questions on the [Piazza site](https://piazza.com/princeton/spring2017/cos495/home).  Piazza activity counts as class participation and can enhance your grade.
