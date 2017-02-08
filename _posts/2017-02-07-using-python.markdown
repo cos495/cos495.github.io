@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Python"
-date:   2017-02-06 21:00:00 -0500
+date:   2017-02-07 21:00:00 -0500
 categories: general
 author: "Alex Beatson"
 ---
