@@ -34,11 +34,19 @@ Alex Beatson, Donghun Lee, Qipeng Liu, and Ari Seff will lead the weekly precept
 - W	7:30-8:20 pm [Friend Center][friend-center]   	108  	by Ari Seff
 - W	7:30-8:20 pm [Friend Center][friend-center]	112	by Donghun Lee
 
+### Office Hours
+The TAs each have a weekly office hour. You can visit the office hours of any TA, not just your preceptor. However, it might be particularly useful to visit your preceptor's office hours so they know what to focus on in precept.
+
+- W	6:30-7:20 pm [Robertson Hall][robertson-hall]	016  	by Alex Beatson
+- Th 	8:30-9:20 pm [Friend Center][friend-center]   	112  	by Qipeng Liu
+- W	6:30-7:20 pm [Computer Science][computer-science]   	418a  	by Ari Seff
+- W	8:30-9:20 pm [Friend Center][friend-center]	112	by Donghun Lee
+
 ### Online discussions
 You can ask and answer questions on the [Piazza site](https://piazza.com/princeton/spring2017/cos495/home).  Piazza activity counts as class participation and can enhance your grade.
 
 ### Homework assignments
-Homework assignments will be due on Mondays, and should be submitted at the [Blackboard site](https://blackboard.princeton.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_3632370_1&handle=cp_announcements&mode=cpview).  The programming component should be submitted as a Jupyter notebook, either Julia or Python.
+Homework assignments will be due on Mondays, and should be submitted at the [Blackboard site](https://blackboard.princeton.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_3632370_1&handle=cp_announcements&mode=cpview).  The programming component should be submitted as a Jupyter notebook, either Julia or Python. Please submit (i) the notebook as a .ipynb file, and (ii) a HTML export of the notebook clearly showing all answers and plots.
 
 ### Other links
 - [Princeton registrar](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=002084&term=1174)
@@ -46,3 +54,4 @@ Homework assignments will be due on Mondays, and should be submitted at the [Bla
 
 [robertson-hall]: https://goo.gl/maps/vNgBtF8Qpn62
 [friend-center]: https://goo.gl/maps/FbGwEnmNAnC2
+[computer-science]: https://goo.gl/maps/23Nw4ktSwZQ2
