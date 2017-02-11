@@ -46,7 +46,7 @@ The TAs each have a weekly office hour. You can visit the office hours of any TA
 You can ask and answer questions on the [Piazza site](https://piazza.com/princeton/spring2017/cos495/home).  Piazza activity counts as class participation and can enhance your grade.
 
 ### Homework assignments
-Homework assignments will be due on Mondays, and should be submitted at the [Blackboard site](https://blackboard.princeton.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_3632370_1&handle=cp_announcements&mode=cpview).  The programming component should be submitted as a Jupyter notebook, either Julia or Python. Please submit (i) the notebook as a .ipynb file, and (ii) a HTML export of the notebook clearly showing all answers and plots.
+Homework assignments will be due on Mondays, and should be submitted at the [Blackboard site](https://blackboard.princeton.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_3632370_1&handle=cp_announcements&mode=cpview).  The programming component should be submitted as a Jupyter notebook, either Julia or Python. Please submit (i) the Python or Julia notebook file, and (ii) a HTML export of the notebook clearly showing all answers and plots/visualizations.
 
 ### Other links
 - [Princeton registrar](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=002084&term=1174)
