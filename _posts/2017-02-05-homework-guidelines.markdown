@@ -8,7 +8,7 @@ author: "Sebastian Seung"
 
 - All homework assignments are due on Mondays (see [schedule](http://cos495.github.io/schedule/)), and should be submitted through Blackboard.  
 
-- Programming exercises should be submitted as a Jupyter notebook.  Please submit (i) the notebook itself, and (ii) a .html export of the notebook, with all cells executed in order, and **all required plots and answers clearly visible**. (To do run all cells in order and export: click Kernel -> Restart & Run All, and then File -> Download As -> HTML).
+- Programming exercises should be submitted as a Jupyter notebook.  Please submit (i) the notebook itself, and (ii) a .html export of the notebook, with all cells executed in order, and **all required plots and answers clearly visible**. (To run all cells in order and export: click Kernel -> Restart & Run All, and then File -> Download As -> HTML).
 
 - Theoretical exercises should be submitted as a PDF.  Scans of handwriting are acceptable.
 
