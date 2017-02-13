@@ -7,6 +7,25 @@
 
     {% include header.html %}
 
+      <script type="text/x-mathjax-config">
+       MathJax.Hub.Config({
+           TeX: {
+               Macros: {
+                   vec: ["{\\bf #1}",1]
+               },
+               equationNumbers: {
+                   autoNumber: "AMS"
+               }
+           }
+       });
+      </script>
+
+<!-- <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } });
+    </script> -->
+ <!--  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script> -->
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
@@ -18,16 +37,5 @@
   </body>
 
 </html>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
- MathJax.Hub.Config({
-     TeX: {
-         Macros: {
-             vec: ["{\\bf #1}",1]
-         }
-     }
- });
-</script>
-
 
 
