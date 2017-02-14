@@ -24,7 +24,7 @@ processing.
 ### Lectures
 Prof. Sebastian Seung will lecture twice a week.
 
-- MW 3-4:20pm [Robertson Hall][robertson-hall] 016
+- MW 3-4:20pm [McCosh Hall][mccosh-hall] 28
 
 ### Precepts
 Alex Beatson, Donghun Lee, Qipeng Liu, and Ari Seff will lead the weekly precepts.
@@ -52,6 +52,6 @@ Homework assignments will be due on Mondays, and should be submitted at the [Bla
 - [Princeton registrar](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=002084&term=1174)
 - [COS Dept](http://www.cs.princeton.edu/courses/archive/spring17/cos495/)
 
-[robertson-hall]: https://goo.gl/maps/vNgBtF8Qpn62
+[mccosh-hall]: https://goo.gl/maps/r1ryZ7EKZrD2
 [friend-center]: https://goo.gl/maps/FbGwEnmNAnC2
 [computer-science]: https://goo.gl/maps/23Nw4ktSwZQ2
