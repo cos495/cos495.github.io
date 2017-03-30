@@ -35,10 +35,10 @@ Alex Beatson, Donghun Lee, Qipeng Liu, and Ari Seff will lead the weekly precept
 - W	7:30-8:20 pm [Friend Center][friend-center]	112	by Donghun Lee
 
 ### Office Hours
-There are two weekly office hours. The TAs will rotate taking each weekly office hour.
+There are two weekly office hours:
 
-- Th 	8:30-9:20 pm [Friend Center][friend-center]   	112
-- M	4:30-5:30 pm [McCosh Hall][mccosh-hall] 28
+- Th 	8:20-9:20 pm [Friend Center][friend-center]   	109  	by Qipeng Liu
+- Fr 	1:00-2:00 pm [Computer Science][computer-science]   	226  	by Alex Beatson
 
 ### Online discussions
 You can ask and answer questions on the [Piazza site](https://piazza.com/princeton/spring2017/cos495/home).  Piazza activity counts as class participation and can enhance your grade.
