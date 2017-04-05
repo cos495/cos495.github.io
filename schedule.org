@@ -36,26 +36,26 @@ permalink: /schedule/
 | Lecture      | Feb. 27 | convolution and pooling             |   |
 | Lecture      | Mar. 1  | ConvNet backprop                    |   |
 | Pset 4 due   | Mar. 6  | LeNet                               |   |
-| Lecture      | Mar. 6  | visual object recognition           |   |
-| Lecture      | Mar. 8  | image to image transforms           |   |
+| Lecture      | Mar. 6  | contemporary ConvNets               |   |
+| Lecture      | Mar. 8  | midterm review                      |   |
 | Lecture      | Mar. 13 | biological vision                   |   |
 | Midterm      | Mar. 15 | in-class exam                       |   |
 | Spring break |         |                                     |   |
 | Lecture      | Mar. 27 | deep learning frameworks            |   |
 | Lecture      | Mar. 29 | parallel and distributed algorithms |   |
 | Pset 5 due   | Apr. 3  | ConvNets at scale                   |   |
-| Lecture      | Apr. 3  | PCA and clustering                  |   |
-| Lecture      | Apr. 5  | autoencoders                        |   |
+| Lecture      | Apr. 3  | competitive learning and clustering |   |
+| Lecture      | Apr. 5  | PCA and autoencoders                |   |
 | Pset 6 due   | Apr. 10 | unsupervised learning               |   |
 | Lecture      | Apr. 10 | contrastive Hebbian learning        |   |
-| Lecture      | Apr. 12 | backprop through time               |   |
-| Pset 7 due   | Apr. 17 | recurrent nets                      |   |
-| Lecture      | Apr. 17 | MLPs for language                   |   |
+| Lecture      | Apr. 12 | MLPs for language                   |   |
+| Pset 7 due   | Apr. 17 | language modeling                   |   |
+| Lecture      | Apr. 17 | backprop through time               |   |
 | Lecture      | Apr. 19 | RNNs for language                   |   |
-| Pset 8 due   | Apr. 24 | language modeling                   |   |
+| Pset 8 due   | Apr. 24 | recurrent nets                      |   |
 | Lecture      | Apr. 24 | policy gradient                     |   |
 | Lecture      | Apr. 26 | value function                      |   |
 | Pset 9 due   | May 1   | reinforcement learning              |   |
-| Lecture      | May 1   | ICA and NMF                         |   |
-| Lecture      | May 3   | unsupervised learning in the brain  |   |
-| Final        | TBA     | final exam                          |   |
+| Lecture      | May 1   | unsupervised learning in the brain  |   |
+| Lecture      | May 3   | final review                        |   |
+| Final        | May 22  | final exam                          |   |
