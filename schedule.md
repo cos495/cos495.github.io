@@ -13,7 +13,6 @@ permalink: /schedule/
      $('td:contains("exam")').closest('tr').css('background-color','LightSalmon');
  });
 </script>
-
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -34,14 +33,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Feb. 8</td>
 <td class="org-left">delta rule</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Pset 1 due</td>
@@ -50,14 +47,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Feb. 13</td>
 <td class="org-left">multilayer perceptrons</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -66,14 +61,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Pset 2 due</td>
 <td class="org-left">Feb. 20</td>
 <td class="org-left">multilayer perceptrons</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -82,14 +75,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Feb. 22</td>
 <td class="org-left">generalization and regularization</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Pset 3 due</td>
@@ -98,14 +89,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Feb. 27</td>
 <td class="org-left">convolution and pooling</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -114,14 +103,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Pset 4 due</td>
 <td class="org-left">Mar. 6</td>
 <td class="org-left">LeNet</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -130,14 +117,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Mar. 8</td>
 <td class="org-left">midterm review</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -146,14 +131,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Midterm</td>
 <td class="org-left">Mar. 15</td>
 <td class="org-left">in-class exam</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Spring break</td>
@@ -162,14 +145,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Mar. 27</td>
 <td class="org-left">deep learning frameworks</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -178,14 +159,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Pset 5 due</td>
 <td class="org-left">Apr. 3</td>
 <td class="org-left">ConvNets at scale</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -194,14 +173,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Apr. 5</td>
-<td class="org-left">PCA and autoencoders</td>
+<td class="org-left">principal component analysis</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Pset 6 due</td>
@@ -210,30 +187,26 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Apr. 10</td>
-<td class="org-left">contrastive Hebbian learning</td>
+<td class="org-left">autoencoders</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Apr. 12</td>
-<td class="org-left">MLPs for language</td>
+<td class="org-left">n-grams and word embeddings</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Pset 7 due</td>
 <td class="org-left">Apr. 17</td>
-<td class="org-left">language modeling</td>
+<td class="org-left">word embeddings</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -242,54 +215,33 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Apr. 19</td>
+<td class="org-left">class cancelled</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Lecture</td>
+<td class="org-left">Apr. 24</td>
 <td class="org-left">RNNs for language</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
-<tr>
-<td class="org-left">Pset 8 due</td>
-<td class="org-left">Apr. 24</td>
-<td class="org-left">recurrent nets</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
 <tr>
 <td class="org-left">Lecture</td>
-<td class="org-left">Apr. 24</td>
+<td class="org-left">Apr. 26</td>
 <td class="org-left">policy gradient</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
-
-<tr>
-<td class="org-left">Lecture</td>
-<td class="org-left">Apr. 26</td>
-<td class="org-left">value function</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Pset 9 due</td>
-<td class="org-left">May 1</td>
-<td class="org-left">reinforcement learning</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">May 1</td>
-<td class="org-left">unsupervised learning in the brain</td>
+<td class="org-left">AlphaGo case study</td>
 <td class="org-left">&#xa0;</td>
 </tr>
-
 
 <tr>
 <td class="org-left">Lecture</td>
@@ -298,6 +250,12 @@ permalink: /schedule/
 <td class="org-left">&#xa0;</td>
 </tr>
 
+<tr>
+<td class="org-left">Pset 8 due</td>
+<td class="org-left">May 10</td>
+<td class="org-left">recurrent nets</td>
+<td class="org-left">&#xa0;</td>
+</tr>
 
 <tr>
 <td class="org-left">Final</td>
@@ -307,4 +265,3 @@ permalink: /schedule/
 </tr>
 </tbody>
 </table>
-
